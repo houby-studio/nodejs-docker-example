@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-docker-example-dashboard",
+  "version": "1.0.0",
+  "description": "Simple application dockerized and deployed to kubernetes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houby-studio/nodejs-docker-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "docker",
+    "kubernetes",
+    "microk8s"
+  ],
+  "author": "Houby Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/houby-studio/nodejs-docker-example/issues"
+  },
+  "homepage": "https://github.com/houby-studio/nodejs-docker-example#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
